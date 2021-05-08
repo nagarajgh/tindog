@@ -1,0 +1,182 @@
+body {
+  font-family: 'Montserrat-black', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 0.75rem;
+}
+
+/********Headings**********/
+.big-heading {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #d8e0e0;
+  font-weight: 900;
+}
+
+.pricing-headings{
+  font-size: 2.3rem;
+  line-height: 1.5;
+}
+
+/********sections colors***********/
+.colored-section{
+background-color:#276678;
+color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+
+/*********Title*************/
+#title {
+text-align: left;
+}
+
+.title-image {
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 55%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-container-fluid {
+  padding: 3% 15% 7%;
+
+}
+
+/*Navigation bar*/
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/*******feature***********/
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-heading{
+font-size: 1.5rem;
+}
+
+.features-column {
+  margin: 40px 0;
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #1687a7;
+  padding: 20px;
+}
+
+.feature-icon:hover {
+  color: #276678;
+}
+
+/*********Testimonials************/
+
+#testimonials {
+  background-color: #1687a7;
+  font-weight: 700;
+}
+
+.testimonial-text{
+  font-size: 2.3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 18%;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+#press {
+  background-color: #1687a7;
+  padding-bottom: 15%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 25px 15px;
+}
+
+/************Pricing*************/
+#pricing {
+  padding: 100px;
+}
+
+.Pricing-column {
+  padding: 3% 2%;
+}
+
+  .Pricing-side-heading{
+  font-size: 1.5rem;
+  }
+
+
+/***********Call to Action***********/
+
+#cta {
+  padding: 8% 20%;
+}
+
+/*************Footer************/
+
+#footer {
+  padding: 5% 10%;
+  line-height: 3;
+}
+
+.footer-icon {
+  padding: 1%;
+}
+
+.top{
+  text-decoration-color: #fff;
+}
+
+/**********CSS Media query***********/
+
+@media (max-width: 993px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
